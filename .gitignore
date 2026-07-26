@@ -1,0 +1,34 @@
+# Sensitive & environment files
+.env
+.env.*
+*.env
+*.keys
+*.pem
+*.key
+*.id
+
+# Build & compiled output
+target/
+dist/
+build/
+*.so
+*.dylib
+*.dll
+*.rlib
+__pycache__/
+*.pyc
+*.pyo
+
+# AI Internal & Sensitive Logs (Physical Security Rule #8)
+website/ai_docs/
+transcript.jsonl
+transcript_full.jsonl
+task.md
+walkthrough.md
+implementation_plan.md
+scratch/
+.system_generated/
+
+# OS files
+.DS_Store
+Thumbs.db
